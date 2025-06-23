@@ -240,13 +240,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact & Demo
 
-**Project Creator**: [Your Name]
-**Email**: [your.email@example.com]
-**LinkedIn**: [your-linkedin-profile]
-
-### Interview Demo Available
-
-This project includes a comprehensive demo script for technical interviews. The complete workflow can be demonstrated in 10-15 minutes, showcasing full-stack development, system architecture, and security implementation skills.
+**Project Creator**: Karthikeyan Akkapalli	
+**Email**: akkapallikarthikeyan@gmail.com
 
 **Key Demo Points**:
 
