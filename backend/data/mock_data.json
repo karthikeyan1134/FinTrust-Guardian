@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "user_id": "user_123",
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "transaction_history": [
+        {
+          "transaction_id": "txn_001",
+          "amount": 150.00,
+          "date": "2023-01-15",
+          "description": "Deposit"
+        },
+        {
+          "transaction_id": "txn_002",
+          "amount": -50.00,
+          "date": "2023-01-20",
+          "description": "Withdrawal"
+        }
+      ],
+      "credit_score": 720,
+      "consent": {
+        "loan_application": true,
+        "credit_scoring": true
+      }
+    },
+    {
+      "user_id": "user_456",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "transaction_history": [
+        {
+          "transaction_id": "txn_003",
+          "amount": 200.00,
+          "date": "2023-02-10",
+          "description": "Deposit"
+        },
+        {
+          "transaction_id": "txn_004",
+          "amount": -75.00,
+          "date": "2023-02-15",
+          "description": "Withdrawal"
+        }
+      ],
+      "credit_score": 680,
+      "consent": {
+        "loan_application": false,
+        "credit_scoring": true
+      }
+    }
+  ]
+}

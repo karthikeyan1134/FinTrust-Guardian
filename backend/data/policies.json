@@ -1,0 +1,32 @@
+{
+  "policies": [
+    {
+      "partner_id": "partner_ABC",
+      "data_usage": {
+        "purpose": "loan_application",
+        "allowed_data": [
+          "transaction_history",
+          "credit_score"
+        ],
+        "conditions": [
+          "User consent must be obtained",
+          "Data must be anonymized"
+        ]
+      }
+    },
+    {
+      "partner_id": "partner_XYZ",
+      "data_usage": {
+        "purpose": "regulatory_reporting",
+        "allowed_data": [
+          "transaction_summary",
+          "account_balance"
+        ],
+        "conditions": [
+          "Data must be encrypted",
+          "Access logs must be maintained"
+        ]
+      }
+    }
+  ]
+}

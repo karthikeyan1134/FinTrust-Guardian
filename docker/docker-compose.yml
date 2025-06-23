@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile.backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=app.py
+
+  frontend:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+
+  data-exchange:
+    build:
+      context: ./data-exchange
+    ports:
+      - "9999:9999"
+    volumes:
+      - ./data-exchange:/app
+
+networks:
+  default:
+    driver: bridge
